@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Social Login</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(120deg, #833ab4, #fd1d1d, #fcb045);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+```
+    .container {
+        background: white;
+        padding: 40px;
+        border-radius: 12px;
+        width: 320px;
+        text-align: center;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+        font-family: 'Segoe UI', sans-serif;
+        margin-bottom: 20px;
+    }
+
+    input {
+        width: 100%;
+        padding: 12px;
+        margin: 8px 0;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+    button {
+        width: 100%;
+        padding: 12px;
+        margin-top: 10px;
+        background: #0095f6;
+        border: none;
+        color: white;
+        font-size: 16px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: #0077cc;
+    }
+
+    .divider {
+        margin: 15px 0;
+        color: #999;
+    }
+
+    .link-btn {
+        margin-top: 10px;
+        background: #28a745;
+    }
+
+    .link-btn:hover {
+        background: #1e7e34;
+    }
+</style>
+```
+
+</head>
+<body>
+
+```
+<div class="container">
+    <h1>MyApp</h1>
+
+    <form action="/submit" method="POST">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email address" required>
+        <button type="submit">Sign Up</button>
+    </form>
+
+    <div class="divider">OR</div>
+
+    <a href="/users">
+        <button class="link-btn">View Users</button>
+    </a>
+</div>
+```
+
+</body>
+</html>
+
